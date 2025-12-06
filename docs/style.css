@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #020617, #000);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 18px 40px;
+  border-radius: 50px;
+  border: none;
+  background: #7c3aed;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.7);
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
